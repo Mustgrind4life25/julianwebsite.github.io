@@ -222,6 +222,10 @@ textarea{
 	padding: 5px 5px;
 }
 
+.form-btn:hover{
+	cursor: pointer;
+}
+
 
 /* footer section */
 #footer{
