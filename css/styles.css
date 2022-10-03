@@ -69,18 +69,18 @@ img{
 
 
 .hire-btn{
-	background: #21325E;
-	color: #fff;
+	background: #fff;
+	color: #21325E;
 	border: 1px solid #fff;
 	padding: 12px;
 	border-radius: 25px;
 }
 
-.hire-btn:hover{
+/*.hire-btn:hover{
 	background: #fff;
 	border: 1px solid #21325E;
 	color: #21325E;
-}
+}*/
 
 /* header name section */
 .header-name{
@@ -157,7 +157,7 @@ img{
 
 .projects-container{
 	display: flex;
-/* 	flex-wrap: wrap; */
+	flex-wrap: wrap;
 	padding: 40px 30px;
 }
 
@@ -221,10 +221,6 @@ textarea{
 	background: #fff;
 	color: #21325E;
 	padding: 5px 5px;
-}
-
-.form-btn:hover{
-	cursor: pointer;
 }
 
 
