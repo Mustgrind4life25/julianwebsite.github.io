@@ -195,6 +195,7 @@ img{
 	text-align: center;
 	padding: 20px 0;
 	font-size: 2em;
+	text-transform: uppercase;
 }
 
 .contact-container{
@@ -223,6 +224,8 @@ textarea{
 	background: #fff;
 	color: #21325E;
 	padding: 5px 5px;
+	cursor: pointer;
+	margin-bottom: 25px;
 }
 
 
@@ -243,6 +246,16 @@ textarea{
 	background: #fff;
 	color: #21325E;
 	padding: 5px;
+}
+
+#copy-right{
+	display: flex;
+	justify-content: center;
+	padding: 15px 0;
+}
+
+.copy-right-container{
+	color: #21325e;
 }
 
 
