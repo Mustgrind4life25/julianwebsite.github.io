@@ -96,6 +96,8 @@ img{
 /* skills section */
 #bio-skills{
 	margin: auto;
+	line-height: 1.5;
+	padding-bottom: 10px;
 	/*border: 2px solid;*/
 }
 
@@ -120,9 +122,9 @@ img{
 	width: 600px;
 }
 
-/*.skills{
-	width: 100%;
-}*/
+.skills{
+	padding-bottom: 15px;
+}
 
 .skills-icon{
 	width: 80px;
@@ -145,6 +147,7 @@ img{
 
 #projects{
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 /* portfolio header */
@@ -164,23 +167,21 @@ img{
 
 /* card for projects */
 .card{
-	width: 350px;
+	width: 220px;
 	margin: 10px;
 	box-shadow: 4px 6px 4px 6px #3D3C42;
+	border-radius: 20px;
 }
 
 .card a img{
-	height: 80%;
+	height: 85%;
+	background: #000;
 }
 
 .card-headers{
 	color: #21325E;
 	text-align: center;
 	padding: 5px 0;
-}
-
-{
-	background: 
 }
 
 
