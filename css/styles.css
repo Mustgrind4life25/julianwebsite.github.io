@@ -90,6 +90,7 @@ img{
 
 .header-name h1{
 	color: #21325E;
+	text-transform: uppercase;
 }
 
 
@@ -176,6 +177,7 @@ img{
 .card a img{
 	height: 85%;
 	background: #000;
+	border-radius: 20px;
 }
 
 .card-headers{
