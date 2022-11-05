@@ -168,17 +168,17 @@ img{
 
 /* card for projects */
 .card{
-	width: 220px;
+	width: 260px;
 	margin: 10px;
-	box-shadow: 4px 6px 4px 6px #3D3C42;
+	box-shadow: 3px 2px 3px 2px #3D3C42;
 	border-radius: 20px;
 }
 
 .card a img{
 	height: 85%;
 	background: #000;
-	border-radius: 20px;
-}
+/*	border-radius: 20px;
+*/}
 
 .card-headers{
 	color: #21325E;
@@ -262,6 +262,7 @@ textarea{
 
 
 /* Media queries */
+
 @media screen and (max-width: 600px){
 	#top-header{
 		position: relative;
