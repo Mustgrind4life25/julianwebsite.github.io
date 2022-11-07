@@ -168,22 +168,106 @@ img{
 
 /* card for projects */
 .card{
-	width: 260px;
+	width: 270px;
 	margin: 10px;
-	box-shadow: 3px 2px 3px 2px #3D3C42;
 	border-radius: 5px;
 }
 
-.card a img{
-	height: 85%;
+.card h3{
+	padding: 10px;
+}
+
+.card p{
+	padding: 10px;
+}
+
+.card a{
+	background-color: #fff;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 50px;
+}
+
+.card-main{
+	background-color: #fff;
+	color: #000;
+	width: 270px;
+	margin: 10px;
+	border-top: 4px solid #21325E;
+	border-bottom: 2px solid #21325E;
+	border-radius: 5px;
+	padding: 0 3px 4px 0;
+}
+
+
+.card-main a{
+	background-color:  #21325E;
+	color: #fff;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 50px;
+}
+
+.card-img{
+	height: 160px;
 	background: #000;
-/*	border-radius: 20px;
-*/}
+	background-size: cover;
+	margin-bottom: 15px;
+}
+
+.card-1{
+	background-image: url("https://github.com/Mustgrind4life25/portfoliotest.github.io/blob/main/img/nike-pic-fliex.JPG?raw=true");
+}
+
+.card-2{
+	background-image: url("https://github.com/Mustgrind4life25/julianwebsite.github.io/blob/main/img/chewy-pic.PNG?raw=true");
+}
+
+.card-3{
+	background-image: url("https://github.com/Mustgrind4life25/portfoliotest.github.io/blob/main/img/footlocker-email-pic.PNG?raw=true");
+}
+
+.card-4{
+	background-image: url("https://github.com/Mustgrind4life25/portfoliotest.github.io/blob/main/img/sneakercloset-img.JPG?raw=true");
+}
+
+.card-5{
+	background-image: url("https://github.com/Mustgrind4life25/julianwebsite.github.io/blob/main/img/newsletter-img.PNG?raw=true");
+}
+
+.card-6{
+	background-image: url("https://github.com/Mustgrind4life25/portfoliotest.github.io/blob/main/img/luxurymotors-website-img.JPG?raw=true");
+}
+
+.card-7{
+	background-image: url("https://github.com/Mustgrind4life25/julianwebsite.github.io/blob/main/img/boxing-fitness-img.PNG?raw=true");
+}
+
+.card-8{
+	background-image: url("https://github.com/Mustgrind4life25/julianwebsite.github.io/blob/main/img/restaurant-pic-website.PNG?raw=true");
+}
 
 .card-headers{
-	color: #21325E;
+	color: #000;
 	text-align: center;
 	padding: 5px 0;
+}
+
+
+.card:hover{
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 1s ease;
+}
+
+.card-btn:hover{
+	border: 2px solid #21325E;
+	background: #fff;
+	color: #21325E;
 }
 
 
